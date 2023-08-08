@@ -1,0 +1,6 @@
+/* >:D
+Nessa atividade tive que selecionar todos os campos da tabela "city", e dentro dela selecionar quais cidades
+tem o número populacional maior do que 100000 e que o código postal seja USA
+*/
+
+select * from city where (population) > 100000 and countrycode = "USA"
